@@ -1,0 +1,82 @@
+body {
+    background-color: hsl(0, 0%, 95%);
+    hyphens: auto;
+}
+/*Main Content Container*/
+main {
+    margin: 88px auto;
+    max-width: 327px;
+}
+/*Main Content Container End*/
+/*Seperate Container*/
+.containers {
+    min-height: 442px;
+}
+.one {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 10px 10px 0 0;
+
+}
+.two {
+    background-color: hsl(184, 100%, 22%);
+}
+.three {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 10px 10px;
+}
+/*Text inside cotainers*/
+svg {
+    margin-top: 49px;
+}
+.textinsidecotainers {
+    height: 442px;
+    margin: 0 49px;
+}
+.headers {
+    margin-top: 32px;
+    margin-bottom: 27px;
+    font-size: 40px;
+}
+.paragrafs {
+    margin-bottom: 41px;
+    line-height: 25px;
+    font-size: 15px;
+
+}
+/*Seperate Container End*/
+/*Text fonts and colors*/
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400; 
+    color: hsla(0, 0%, 100%, 0.75); 
+}
+/*Text fonts and colors Ends*/
+/*Buttons*/
+.button {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400; 
+    border: 2px solid white;
+    background-color: white;
+    text-decoration: none;
+    padding: 12px 28px;
+    border-radius: 40px;
+}
+.button:hover {
+    background-color:transparent ;
+    color: white;
+}
+.buttontextone {
+color: hsl(31, 77%, 52%);
+}
+.buttontexttwo {
+color:hsl(184, 100%, 22%);
+}
+.buttontextthree {
+color: hsl(179, 100%, 13%);
+}
+/*Buttons Ends*/
