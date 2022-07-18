@@ -1,6 +1,7 @@
 body {
     background-color: hsl(0, 0%, 95%);
     hyphens: auto;
+    max-height: 100vh;
 }
 /*Main Content Container*/
 main {
@@ -8,9 +9,9 @@ main {
     max-width: 327px;
 }
 /*Main Content Container End*/
-/*Seperate Container*/
+/*Seperate Containers*/
 .containers {
-    min-height: 442px;
+    max-height: 442px;
 }
 .one {
     background-color: hsl(31, 77%, 52%);
@@ -60,7 +61,7 @@ p {
 .button {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 400; 
-    border: 2px solid white;
+    border: 4px solid white;
     background-color: white;
     text-decoration: none;
     padding: 12px 28px;
@@ -80,3 +81,39 @@ color:hsl(184, 100%, 22%);
 color: hsl(179, 100%, 13%);
 }
 /*Buttons Ends*/
+/*========================Media Querry==========================*/
+@media screen and (min-width: 785px) {
+main {
+    margin: 170px auto 130px;
+    max-width: 920px;
+    display: flex;
+}
+.containers {
+    min-height: 500px;
+    width: 33.3%;
+}
+.one {
+    border-radius: 10px 0 0 10px;
+}
+.three {
+    border-radius: 0 10px 10px 0px;
+}
+.textinsidecotainers {
+    height: 500px;
+    margin: 0 49px;
+}
+.paragrafs {
+    margin-bottom: 97px;
+}
+}
+@media screen and (min-width: 1000px) {
+    main {
+        margin: 80px auto 100px;
+    }
+    footer {
+        position: absolute;
+        bottom: 0px;
+        background-color: aquamarine;
+        font-size: 30px;
+    }
+}
